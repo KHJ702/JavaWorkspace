@@ -7,6 +7,7 @@ public class B_ArrayCopy {
 	 * 배열 복사
 	 *  - 얖은 복사 : 주소값만 복사
 	 *  - 깊은 복사 : "새로운 배열"(=새로운 객체)을 생성하여 실제 내부값들도 복사.
+	 *  *******
 	 */
 	public void method1() {
 		
