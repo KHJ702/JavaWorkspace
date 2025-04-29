@@ -17,7 +17,8 @@ public class Student {
 	}
 
 	public String inform() {
-		return"";
+		return"이름 : "+name+" / 과목  : "+ subject+" / 점수 : "+score;
+		
 	}
 
 	public String getName() {
