@@ -54,8 +54,6 @@ public class PersonMenu {
 		return;
 		}
 		
-		
-		
 	}
 	public void employeeMenu() {
 		
@@ -88,11 +86,17 @@ public class PersonMenu {
 		System.out.print("학생 전공 : ");
 		String major = sc.nextLine();
 		
+		if() {
+			System.out.println("학생을 담을 수 있는 공간이 꽉 찼기 때문에 학생 추가 메뉴는 더 이상 활성화 되지 않습니다.");
+		} else if {
+			System.out.println("학생을 담을 수 있는 공간이 꽉 찼기 때문에 학생 추가를 종료하고 학생 메뉴로 돌아갑니다.");
+		} else if {
+			System.out.println("그만하시려면 N(또는 n), 이어하시려면 아무 키나 누르세요 : ");
+
+		}
 		
 		Student[] result1 = pc.insertStudent(name, age, grade, major);
 		System.out.println(result1);
-		
-		
 		
 	}
 	public void printStudent() {
@@ -102,9 +106,28 @@ public class PersonMenu {
 			System.out.println(arr[i].);
 		
 	}
+	}
 	public void insertEmployee() {
 		
+		
+		System.out.print("사원 이름 : ");
+		String name = sc.nextLine();
+		System.out.print("사원 나이 : ");
+		String age = sc.nextLine();
+		System.out.print("사원 급여 : ");
+		String grade = sc.nextLine();
+		System.out.print("사원 부서 : ");
+		String major = sc.nextLine();
+		
+		if() {
+			System.out.println("학생을 담을 수 있는 공간이 꽉 찼기 때문에 학생 추가 메뉴는 더 이상 활성화 되지 않습니다.");
+		} else if {
+			System.out.println("학생을 담을 수 있는 공간이 꽉 찼기 때문에 학생 추가를 종료하고 학생 메뉴로 돌아갑니다.");
+		} else if {
+			System.out.println("그만하시려면 N(또는 n), 이어하시려면 아무 키나 누르세요 : ");
+		}
 	}
+	
 	public void printEmployee() {
 		
 	}
