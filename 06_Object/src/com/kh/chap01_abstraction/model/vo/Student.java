@@ -7,6 +7,10 @@ public class Student {
 	public int age;
 	public double height;
 
+	{ //초기화블럭 // 위에서 바로 public String name ="a" 이것도 가능하나 if~ 이런걸 사용할 수 없기 떄문에 초기화 블럭을 사용함.
+		
+	 name = "z";
+	}
 	// 생성자 / 생성자부
 	
 	// 기능 / 메서드부
