@@ -16,7 +16,7 @@ public class GameController {
 		}
 	
 	public static Monster createMonster(int num) {
-		return new moster;
+		return new Monster();
 	}
 	
 }
