@@ -33,7 +33,7 @@ public class A_UnchecledException {
 		if (num2 != 0) {
 			System.out.println("나눗셈 연 산 결 과 : "+(num1 / num2));
 
-		}else {
+		} else {
 			System.out.println("0으로 나누지 마세요..");
 		}
 		System.out.println("프로그램 종료..");

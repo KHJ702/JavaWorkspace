@@ -1,14 +1,17 @@
 package com.kh.exception.run;
 
+import java.io.IOException;
+
 import com.kh.exception.controller.A_UnchecledException;
+import com.kh.exception.controller.B_CheckedException;
+import com.kh.exception.controller.C_CustomException;
 
 public class Run {
 	
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) throws IOException{
 		A_UnchecledException ac = new A_UnchecledException();
-		ac.method3();
-	}
+		//ac.method3();
+	
 	//NullPointerException, ArrayIndexOutOfBoundsException (아마 이거인듯)
 
 	/*
@@ -30,6 +33,14 @@ public class Run {
 	 * 2. throws를 이용
 	 * 
 	 */
-	
-		
+	B_CheckedException b = new B_CheckedException();
+  
+    try {
+    	b.method1();
+    } catch(IOException E) {
+    	
+    }
+    //throw new RuntimeException("프로그램 실행중 예외 발생");
+    throw new C_CustomException("사용자 정의 에러 발생");
+}
 }
